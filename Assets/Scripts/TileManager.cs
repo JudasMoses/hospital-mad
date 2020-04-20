@@ -7,13 +7,16 @@ using PathFind = NesScripts.Controls.PathFind;
 public class TileManager : MonoBehaviour
 {
 	public static TileManager instance;
-
 	private void Awake()
 	{
 		if (instance == null)
 		{
 			instance = gameObject.GetComponent<TileManager>();
 		}
+
+
+		// Setup
+		GetGrid();
 	}
 
 
@@ -30,28 +33,16 @@ public class TileManager : MonoBehaviour
 	public PathFind.Grid grid;
 
 
-
-	private void Start()
-	{
-		GetGrid();
-
-		PathFind.Point _from = new PathFind.Point(10, 1);
-		PathFind.Point _to = new PathFind.Point(10, 10);
-		List<PathFind.Point> path = PathFind.Pathfinding.FindPath(grid, _from, _to);
-
-		Debug.Log(path);
-	}
-
-
 	public void GetGrid()
 	{
 		// Pathfinding
+		floor.CompressBounds();
 		BoundsInt tilemapBounds = floor.cellBounds;
 		bool[,] tilesmap = new bool[tilemapBounds.xMax, tilemapBounds.yMax];
 
-		for (int x = 0; x < tilemapBounds.xMax - 1; x++)
+		for (int x = tilemapBounds.xMin; x < tilemapBounds.xMax; x++)
 		{
-			for (int y = 0; y < tilemapBounds.yMax - 1; y++)
+			for (int y = tilemapBounds.yMin; y < tilemapBounds.yMax; y++)
 			{
 				Vector3Int pos = new Vector3Int(x, y, 0);
 

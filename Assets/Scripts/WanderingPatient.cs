@@ -21,24 +21,42 @@ public class WanderingPatient : MonoBehaviour, IPatient
 
 	bool inBed = true;
 	bool following = false;
-	Vector2? destination = null;
+	Vector2Int destinationPoint;
+	Vector2Int currentCellPos;
+
+	// TEST - REMOVE FROM BUILD
+	public Transform destinationTest;
+	private void Start()
+	{
+		//PatientEvent();
+
+		Vector2Int start = PositionToCellPosition(position.position);
+		PathFind.Point _start = new PathFind.Point(start.x, start.y);
+		Vector2Int finalDestination = PositionToCellPosition(destinationTest.position);
+		PathFind.Point _dest = new PathFind.Point(destinationPoint.x, destinationPoint.y);
+
+		List<PathFind.Point> path = PathFind.Pathfinding.FindPath(TileManager.instance.grid, _start, _dest);
+		Debug.Log(path.Count);
+
+		StartCoroutine(Travelling(path));
+	}
+
 
 	private void FixedUpdate()
 	{
-		if (destination != null)
+		if (destinationPoint != Vector2.zero)
 		{
-			Vector2 dir = (Vector2) position.position - (Vector2) destination;
+			Vector2 dir = (Vector2) position.position - (Vector2) destinationPoint;
 			dir.Normalize();
 			dir *= speed;
 
 			_rigidbody.velocity = dir;
+			currentCellPos = PositionToCellPosition(position.position);
 		}
-	}
-
-	// TEST - REMOVE FROM BUILD
-	private void Start()
-	{
-		PatientEvent();
+		else
+		{
+			_rigidbody.velocity = Vector2.zero;
+		}
 	}
 
 	public void PatientEvent()
@@ -74,7 +92,7 @@ public class WanderingPatient : MonoBehaviour, IPatient
 			{
 				int x = path[0].x;
 				int y = path[0].y;
-				destination = new Vector2(x, y);
+				destinationPoint = new Vector2Int(x, y);
 				path.RemoveAt(0);
 
 				// Wait until at point
@@ -83,7 +101,24 @@ public class WanderingPatient : MonoBehaviour, IPatient
 			yield return new WaitForSeconds(decisionTime);
 		}
 	}
-		
+	
+	IEnumerator Travelling(List<PathFind.Point> path)
+	{
+		destinationPoint = new Vector2Int(path[0].x, path[0].y);
+
+		while (path.Count > 1)
+		{
+			if (currentCellPos != destinationPoint)
+			{
+				yield return null; 
+			}
+			else
+			{
+				path.RemoveAt(0);
+				destinationPoint = new Vector2Int(path[0].x, path[0].y);
+			}
+		}
+	}
 
 	Vector2 RandomDestination()
 	{
@@ -96,5 +131,12 @@ public class WanderingPatient : MonoBehaviour, IPatient
 		currentPos.y = Mathf.Floor(currentPos.y);
 
 		return currentPos + wanderDir;
+	}
+	Vector2Int PositionToCellPosition(Vector2 pos)
+	{
+		Tilemap floor = TileManager.instance.floor;
+		Vector3Int cellPos3 = floor.WorldToCell(pos);
+		Vector2Int cellPos = new Vector2Int(cellPos3.x, cellPos3.y);
+		return cellPos;
 	}
 }
