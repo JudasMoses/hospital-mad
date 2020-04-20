@@ -34,9 +34,13 @@ public class WanderingPatient : MonoBehaviour, IPatient
 		PathFind.Point _start = new PathFind.Point(start.x, start.y);
 		Vector2Int finalDestination = PositionToCellPosition(destinationTest.position);
 		Debug.Log(finalDestination);
-		PathFind.Point _dest = new PathFind.Point(finalDestination.x, finalDestination.y);
+		PathFind.Point _dest = new PathFind.Point(finalDestination.x + 1, finalDestination.y + 1);
+		Debug.Log(finalDestination.x);
+
 
 		List<PathFind.Point> path = PathFind.Pathfinding.FindPath(TileManager.instance.grid, _start, _dest);
+		Debug.Log(_dest);
+
 		Debug.Log(path.Count);
 
 		StartCoroutine(Travelling(path));
