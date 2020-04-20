@@ -33,7 +33,8 @@ public class WanderingPatient : MonoBehaviour, IPatient
 		Vector2Int start = PositionToCellPosition(position.position);
 		PathFind.Point _start = new PathFind.Point(start.x, start.y);
 		Vector2Int finalDestination = PositionToCellPosition(destinationTest.position);
-		PathFind.Point _dest = new PathFind.Point(destinationPoint.x, destinationPoint.y);
+		Debug.Log(finalDestination);
+		PathFind.Point _dest = new PathFind.Point(finalDestination.x, finalDestination.y);
 
 		List<PathFind.Point> path = PathFind.Pathfinding.FindPath(TileManager.instance.grid, _start, _dest);
 		Debug.Log(path.Count);
@@ -46,7 +47,9 @@ public class WanderingPatient : MonoBehaviour, IPatient
 	{
 		if (destinationPoint != Vector2.zero)
 		{
-			Vector2 dir = (Vector2) position.position - (Vector2) destinationPoint;
+			Vector3 destinationPointWorldPos = TileManager.instance.floor.CellToWorld((Vector3Int) destinationPoint);
+
+			Vector2 dir = new Vector2(destinationPointWorldPos.x, destinationPointWorldPos.y) - (Vector2)position.position;
 			dir.Normalize();
 			dir *= speed;
 

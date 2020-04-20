@@ -40,9 +40,9 @@ public class TileManager : MonoBehaviour
 		BoundsInt tilemapBounds = floor.cellBounds;
 		bool[,] tilesmap = new bool[tilemapBounds.xMax, tilemapBounds.yMax];
 
-		for (int x = tilemapBounds.xMin; x < tilemapBounds.xMax; x++)
+		for (int x = tilemapBounds.xMin + 1; x < tilemapBounds.xMax; x++)
 		{
-			for (int y = tilemapBounds.yMin; y < tilemapBounds.yMax; y++)
+			for (int y = tilemapBounds.yMin + 1; y < tilemapBounds.yMax; y++)
 			{
 				Vector3Int pos = new Vector3Int(x, y, 0);
 
