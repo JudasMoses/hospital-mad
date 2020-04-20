@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using PathFind = NesScripts.Controls.PathFind;
 
-public class WanderingPatient : MonoBehaviour, IPatient
+public class WanderingPatient : Patient
 {
 	[Header("Settings")]
 	public int minWanderRadius;
@@ -38,14 +38,14 @@ public class WanderingPatient : MonoBehaviour, IPatient
 	// TEST - REMOVE FROM BUILD
 	private void Start()
 	{
-		PatientEvent();
+		PatientEventTrigger();
 	}
 
-	public void PatientEvent()
+	public override void PatientEventTrigger()
 	{
 		StartCoroutine(Wandering());
 	}
-	public void Interact(bool interacting)
+	public override void Interact(bool interacting)
 	{
 		throw new System.NotImplementedException();
 	}

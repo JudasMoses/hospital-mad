@@ -75,7 +75,7 @@ TextureImporter:
       213: -5660925655084248873
     second: letter_real_right
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -129,7 +129,6 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -240,7 +239,7 @@ TextureImporter:
         width: 12
         height: 29
       alignment: 9
-      pivot: {x: 0.5, y: 0.13793103}
+      pivot: {x: 0.51559895, y: 0.17665915}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:

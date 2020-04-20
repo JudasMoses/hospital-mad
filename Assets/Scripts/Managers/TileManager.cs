@@ -7,7 +7,6 @@ using PathFind = NesScripts.Controls.PathFind;
 public class TileManager : MonoBehaviour
 {
 	public static TileManager instance;
-
 	private void Awake()
 	{
 		if (instance == null)

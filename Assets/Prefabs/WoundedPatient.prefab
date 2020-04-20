@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156627601179494399}
   - component: {fileID: 156627601179494398}
-  - component: {fileID: 156627601179494337}
+  - component: {fileID: 4278452170648800599}
   m_Layer: 0
   m_Name: Interact Zone
   m_TagString: Untagged
@@ -224,7 +224,7 @@ CircleCollider2D:
   m_Offset: {x: -0.09504712, y: 0}
   serializedVersion: 2
   m_Radius: 0.46856514
---- !u!114 &156627601179494337
+--- !u!114 &4278452170648800599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,15 +233,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 156627601179494396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb82f4dc6b7dea24b8a357f1ecd7c786, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c800d7a086738a49b3096ed791305c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healTime: 5
-  bleedoutTime: 60
-  spawnBloodChance: 0
-  _animator: {fileID: 156627601712511986}
-  healthBar: {fileID: 156627602265894531}
-  UI: {fileID: 156627600515903640}
 --- !u!1 &156627601428482866
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156627602433195608}
+  - component: {fileID: 3283652005889963785}
   m_Layer: 0
   m_Name: WoundedPatient
   m_TagString: Untagged
@@ -580,6 +575,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3283652005889963785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156627602433195609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb82f4dc6b7dea24b8a357f1ecd7c786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0
+  healTime: 5
+  bleedoutTime: 60
+  spawnBloodChance: 0
+  _animator: {fileID: 156627601712511986}
+  healthBar: {fileID: 156627602265894531}
+  UI: {fileID: 156627600515903640}
 --- !u!1 &3771247804517805228
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,6 +746,6 @@ SpriteRenderer:
   m_Size: {x: 0.17, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

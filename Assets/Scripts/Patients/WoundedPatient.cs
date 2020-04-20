@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WoundedPatient : MonoBehaviour, IPatient
+public class WoundedPatient : Patient
 {
 	[Header("Settings")]
 	public int healTime;
@@ -28,15 +28,10 @@ public class WoundedPatient : MonoBehaviour, IPatient
 		Waiting, Bleeding
 	}
 
-	//TEST - REMOVE IN BUILD
-	private void Start()
+	public override void PatientEventTrigger()
 	{
-		PatientEvent();
-	}
+		base.PatientEventTrigger();
 
-
-	public void PatientEvent()
-	{
 		healState = State.Bleeding;
 		bleedingCoroutine = Bleeding();
 		StartCoroutine(bleedingCoroutine);
@@ -45,7 +40,7 @@ public class WoundedPatient : MonoBehaviour, IPatient
 		_animator.SetBool("wounded", true);
 		UI.SetActive(true);
 	}
-	public void Interact(bool interacting)
+	public override void Interact(bool interacting)
 	{
 		if (interacting && !currentlyHealing)
 		{
@@ -69,10 +64,12 @@ public class WoundedPatient : MonoBehaviour, IPatient
 		currentlyHealing = true;
 		yield return new WaitForSeconds(healTime);
 		Debug.Log("Healed");
-		Heal();
+		PatientEventFinish();
 	}
-	void Heal()
+	protected override void PatientEventFinish()
 	{
+		base.PatientEventFinish();
+
 		// Remove from interactables
 		PlayerManager.instance.availableInteractable.Remove(this);
 		// Stop Bleeding
@@ -96,20 +93,22 @@ public class WoundedPatient : MonoBehaviour, IPatient
 		}
 	}
 
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if (healState != State.Waiting)
+	public override void CanInteract(bool interactable) {
+		if (interactable)
 		{
-			PlayerManager.instance.availableInteractable.Add(this);
+			if (!active)
+			{
+				PlayerManager.instance.availableInteractable.Add(this);
+			}
 		}
-	}
-	private void OnTriggerExit2D(Collider2D collision)
-	{
-		if (currentlyHealing && healState != State.Waiting)
+		else
 		{
-			Interact(false);
-		}
+			if (currentlyHealing && !active)
+			{
+				Interact(false);
+			}
 
-		PlayerManager.instance.availableInteractable.Remove(this);
+			PlayerManager.instance.availableInteractable.Remove(this);
+		}
 	}
 }
