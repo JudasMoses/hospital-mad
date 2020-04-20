@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 19e878145468b4f4b885a5703350f461
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7263885243058624927
+    second: sanititer_left
+  - first:
+      213: 6850201456694752627
+    second: water_left
+  - first:
+      213: 4201751442076038573
+    second: book_left
+  - first:
+      213: 7450862873899434231
+    second: letter_left
+  - first:
+      213: -5573668293436409033
+    second: papers_left
+  - first:
+      213: 149542728907683692
+    second: books_left
+  - first:
+      213: -6022704132887655305
+    second: toilet_left
+  - first:
+      213: -4421150588560289676
+    second: sink_left
+  - first:
+      213: -631698754085377481
+    second: toilet_paper_left
+  - first:
+      213: -4896563420553660465
+    second: letter_real_left
+  - first:
+      213: -8037292524852607136
+    second: plants_left
+  - first:
+      213: -7888607720014887724
+    second: pen_left
+  - first:
+      213: 434982365352334066
+    second: toilet_paper_right
+  - first:
+      213: 6447798046506693823
+    second: sink_right
+  - first:
+      213: -8104960140907415853
+    second: toilet_right
+  - first:
+      213: 3248968552871018225
+    second: books_right
+  - first:
+      213: -8967116542040517429
+    second: papers_right
+  - first:
+      213: -4668074280472066862
+    second: letter_right
+  - first:
+      213: -6570680342513558157
+    second: book_right
+  - first:
+      213: 7310660145825532330
+    second: water_right
+  - first:
+      213: 1917457869638405505
+    second: sanitizer_right
+  - first:
+      213: 53742491302799757
+    second: pen_right
+  - first:
+      213: 5797003063245085322
+    second: plant_right
+  - first:
+      213: -5660925655084248873
+    second: letter_real_right
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sanititer_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -14}
+        - {x: -8, y: -10}
+        - {x: 0, y: -6}
+        - {x: 8, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9916b194218ec460800000000000000
+      internalID: 7263885243058624927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_left
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13793103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -14.5}
+        - {x: -3, y: -12.5}
+        - {x: -6, y: -11.209885}
+        - {x: -3, y: -9.5}
+        - {x: -0.000005722046, y: -7.5}
+        - {x: 3, y: -9.5}
+        - {x: 5.999998, y: -11.314621}
+        - {x: 3, y: -12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37577225eedc01f50800000000000000
+      internalID: 6850201456694752627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_left
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 68
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: -3}
+        - {x: -4.5, y: 1}
+        - {x: 1.5, y: 4}
+        - {x: 5.5, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da57d6bbcae9f4a30800000000000000
+      internalID: 4201751442076038573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter_left
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 68
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -4}
+        - {x: -7, y: 0}
+        - {x: 1, y: 4}
+        - {x: 6, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f00ce4be48c66760800000000000000
+      internalID: 7450862873899434231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papers_left
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 67
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -6}
+        - {x: -7, y: -2}
+        - {x: 0, y: 1}
+        - {x: 6, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b7dd9b73a56a2b0800000000000000
+      internalID: -5573668293436409033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: books_left
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 67
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -3}
+        - {x: 0, y: -1}
+        - {x: 6, y: -3}
+        - {x: 0, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67f843d158431200800000000000000
+      internalID: 149542728907683692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_left
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 68
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.107142866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: -10}
+        - {x: 0.5, y: -8}
+        - {x: 6.5, y: -11}
+        - {x: -0.5, y: -14}
+      - - {x: -7.5, y: -3}
+        - {x: -7.5, y: -1}
+        - {x: -4.5, y: 1}
+        - {x: -4.5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c44f3308e0b6ca0800000000000000
+      internalID: -6022704132887655305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sink_left
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 68
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.6428572, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 0.5}
+        - {x: -5, y: 2.5}
+        - {x: -2, y: 2.5}
+        - {x: -3, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470da56c6fae4a2c0800000000000000
+      internalID: -4421150588560289676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_paper_left
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 68
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.8888889, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: -0.5}
+        - {x: -3.5, y: 1.5}
+        - {x: -1.5, y: 3.5}
+        - {x: -2.5, y: -1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a2fad7451cb37f0800000000000000
+      internalID: -631698754085377481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter_real_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -4}
+        - {x: -7, y: 0}
+        - {x: 1, y: 4}
+        - {x: 6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73ab91389eb0cb0800000000000000
+      internalID: -4896563420553660465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 49
+        width: 10
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -7}
+        - {x: 0, y: -6}
+        - {x: 2, y: -7}
+        - {x: 0, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0670244380dc57090800000000000000
+      internalID: -8037292524852607136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pen_left
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 50
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -3.5}
+        - {x: -6, y: -1.5}
+        - {x: 5, y: 3.5}
+        - {x: 5, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4cb140319068290800000000000000
+      internalID: -7888607720014887724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_paper_right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2.5, y: -0.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 3.5, y: 2.5}
+        - {x: 4.5, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2926a182e590600800000000000000
+      internalID: 434982365352334066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sink_right
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4.5}
+        - {x: 2, y: 2.5}
+        - {x: 6, y: 1.5}
+        - {x: 6, y: -2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb43d71592e2b7950800000000000000
+      internalID: 6447798046506693823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_right
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 19
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.107142866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: -14}
+        - {x: -5.5, y: -11}
+        - {x: -2.5, y: -9}
+        - {x: 3.5, y: -9}
+        - {x: 4.5, y: -12}
+      - - {x: 3.5, y: -5}
+        - {x: 4.5, y: 1}
+        - {x: 7.5, y: 0}
+        - {x: 7.5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6738a91b5658f80800000000000000
+      internalID: -8104960140907415853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: books_right
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 18
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -3}
+        - {x: 0, y: -1}
+        - {x: 6, y: -3}
+        - {x: 0, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feba406fa7a61d20800000000000000
+      internalID: 3248968552871018225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: papers_right
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -3}
+        - {x: 0, y: 0}
+        - {x: 7, y: -2}
+        - {x: 0, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4552cc3076e8380800000000000000
+      internalID: -8967116542040517429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter_right
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 1}
+        - {x: -1, y: 4}
+        - {x: 7, y: -1}
+        - {x: 2, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d44357ac2ba73fb0800000000000000
+      internalID: -4668074280472066862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_right
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -3}
+        - {x: -5.5, y: 2}
+        - {x: -1.5, y: 4}
+        - {x: 4.5, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d56db9a0140d4a0800000000000000
+      internalID: -6570680342513558157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water_right
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 19
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13793103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -14.5}
+        - {x: -6, y: -11.5}
+        - {x: 0, y: -8.5}
+        - {x: 6, y: -11.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa949894baea47560800000000000000
+      internalID: 7310660145825532330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sanitizer_right
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 19
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -10}
+        - {x: 0, y: -6}
+        - {x: 8, y: -10}
+        - {x: 0, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d0397f5cd2c9a10800000000000000
+      internalID: 1917457869638405505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pen_right
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6.5, y: 1.5}
+        - {x: -5.5, y: 3.5}
+        - {x: 6.5, y: -1.5}
+        - {x: 3.5, y: -3.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89a277d28eeeb000800000000000000
+      internalID: 53742491302799757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_right
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 10
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -7}
+        - {x: 0, y: -6}
+        - {x: 1, y: -7}
+        - {x: 0, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a139a7297137050800000000000000
+      internalID: 5797003063245085322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter_real_right
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 1}
+        - {x: -1, y: 4}
+        - {x: 7, y: 0}
+        - {x: 1, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0decc0c1a5071b0800000000000000
+      internalID: -5660925655084248873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

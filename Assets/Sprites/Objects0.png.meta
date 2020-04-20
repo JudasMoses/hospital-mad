@@ -1,0 +1,1109 @@
+fileFormatVersion: 2
+guid: 44e0f535627ae9a48859c3f2a00ff414
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1220896890529731224
+    second: Bed_0
+  - first:
+      213: -4427343580101933161
+    second: Small_Cabinet
+  - first:
+      213: 1806475511580599347
+    second: Plant_0
+  - first:
+      213: 1479950841385963055
+    second: Trolley
+  - first:
+      213: -8005209526099008787
+    second: Fire_Extinguisher
+  - first:
+      213: -5252434781186420872
+    second: Bed_1
+  - first:
+      213: 8401219955166780976
+    second: IV_Bag
+  - first:
+      213: 8722523812476537173
+    second: Large_Cabinet
+  - first:
+      213: 3702714939540510235
+    second: Window_0
+  - first:
+      213: 6065979285903391188
+    second: Window_1
+  - first:
+      213: 4652359681432364268
+    second: Table_0
+  - first:
+      213: 4215542628767733446
+    second: Floor
+  - first:
+      213: -6546208095100093091
+    second: Wall0
+  - first:
+      213: 3760747808419442489
+    second: Wall1
+  - first:
+      213: 1791402307229289525
+    second: FireExtinguisher
+  - first:
+      213: 8557612528169572598
+    second: Bed0
+  - first:
+      213: 6680490065978075586
+    second: CabinetSmall
+  - first:
+      213: 5370349641858977517
+    second: Plant
+  - first:
+      213: -7896300181900627684
+    second: Trolley
+  - first:
+      213: -3432011377568024157
+    second: Bed1
+  - first:
+      213: 6694342594704121493
+    second: IVBag
+  - first:
+      213: 4341980316476471049
+    second: CabinetBig
+  - first:
+      213: -2326564119773006879
+    second: Window0
+  - first:
+      213: 2797401817016578078
+    second: Window1
+  - first:
+      213: -2603516287227526200
+    second: Table
+  - first:
+      213: -9177660012129926814
+    second: Chair0
+  - first:
+      213: 7678146387486638521
+    second: Chair1
+  - first:
+      213: 465890945298583297
+    second: Door0
+  - first:
+      213: -760474498310202657
+    second: Door1
+  - first:
+      213: 7473111608220186986
+    second: Bucket
+  - first:
+      213: -4265396588872870217
+    second: Silluete0
+  - first:
+      213: -1815711812256474294
+    second: Silluete1
+  - first:
+      213: -2838860659837657070
+    second: Medical_Icon
+  - first:
+      213: 2547229954007856200
+    second: Needle_Icon
+  - first:
+      213: 6671801326807598849
+    second: Nausea_Icon
+  - first:
+      213: -667435646254859895
+    second: Healthbar
+  - first:
+      213: 5235288363061813712
+    second: Dialogue_TopLeft
+  - first:
+      213: -6954998467661862395
+    second: Dialogue_Top
+  - first:
+      213: 8127814390911611971
+    second: Dialogue_TopRight
+  - first:
+      213: -3798179606782242416
+    second: Dialogue_Left
+  - first:
+      213: -2838455605750381322
+    second: Dialogue_Middle
+  - first:
+      213: 6336674363950916622
+    second: Dialogue_Right
+  - first:
+      213: 2735337432903522814
+    second: Dialogue_BottomLeft
+  - first:
+      213: -3843557851489175424
+    second: Dialogue_Bottom
+  - first:
+      213: 179304221099863092
+    second: Dialogue_BottomRight
+  - first:
+      213: 2181349144977720476
+    second: Objects0_34
+  - first:
+      213: -4260805236070576047
+    second: ProgressBar
+  - first:
+      213: 6757709710281778786
+    second: WallEnd0
+  - first:
+      213: -4434839342436780433
+    second: WallEnd1
+  - first:
+      213: -799677648985508553
+    second: Wall2
+  - first:
+      213: -9038499130283294274
+    second: HealthBarBG
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Floor
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 62
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6973b9fad908a30800000000000000
+      internalID: 4215542628767733446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 538
+        width: 31
+        height: 62
+      alignment: 9
+      pivot: {x: 1, y: 0.30645162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5db5c9bb623725a0800000000000000
+      internalID: -6546208095100093091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 538
+        width: 31
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0.30645162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6baad43cd03430800000000000000
+      internalID: 3760747808419442489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireExtinguisher
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 441
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c873c38e65cd810800000000000000
+      internalID: 1791402307229289525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 433
+        width: 48
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.4857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8daf2114fb2c670800000000000000
+      internalID: 8557612528169572598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CabinetSmall
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 436
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.42857146, y: 0.4074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -4.5}
+        - {x: -2, y: 1.5}
+        - {x: 11, y: -3.5}
+        - {x: -2, y: -10.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9262cf15ed5bc50800000000000000
+      internalID: 6680490065978075586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 435
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -13}
+        - {x: -7, y: -10}
+        - {x: -4, y: -8}
+        - {x: 5, y: -8}
+        - {x: 7, y: -10}
+        - {x: 3, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee86a2cb80578a40800000000000000
+      internalID: 5370349641858977517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trolley
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 436
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f5f922d4ba6290800000000000000
+      internalID: -7896300181900627684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 372
+        width: 48
+        height: 35
+      alignment: 9
+      pivot: {x: 0.3541667, y: 0.4857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a975fee5db0f50d0800000000000000
+      internalID: -3432011377568024157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IVBag
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 375
+        width: 16
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -15.5}
+        - {x: -5, y: -8.5}
+        - {x: 5, y: -8.5}
+        - {x: 5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e1b1a2f1517ec50800000000000000
+      internalID: 6694342594704121493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CabinetBig
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 362
+        width: 39
+        height: 56
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18.5, y: -13}
+        - {x: -8.5, y: -5}
+        - {x: 17.5, y: -19}
+        - {x: 7.5, y: -26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077151d710d14c30800000000000000
+      internalID: 4341980316476471049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 375
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b2cd724266bfd0800000000000000
+      internalID: -2326564119773006879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 375
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e103e4d912e52d620800000000000000
+      internalID: 2797401817016578078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Table
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 311
+        width: 48
+        height: 37
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.4054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c30cd41bb37edbd0800000000000000
+      internalID: -2603516287227526200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chair0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 318
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.20833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26140b328d662a080800000000000000
+      internalID: -9177660012129926814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chair1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 319
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1079775714e8a60800000000000000
+      internalID: 7678146387486638521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 289
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fc79aa85d277600800000000000000
+      internalID: 465890945298583297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 290
+        width: 31
+        height: 55
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.13157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1a7319704275f0800000000000000
+      internalID: -760474498310202657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bucket
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 262
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69ffc6d963d5b760800000000000000
+      internalID: 7473111608220186986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silluete0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 263
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d116c6644ec4c0800000000000000
+      internalID: -4265396588872870217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silluete1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 263
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bd8ff0abb4dc6e0800000000000000
+      internalID: -1815711812256474294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medical_Icon
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 263
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210ab8355475a98d0800000000000000
+      internalID: -2838860659837657070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Needle_Icon
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 201
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8447fd9b524995320800000000000000
+      internalID: 2547229954007856200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nausea_Icon
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 203
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c85045fff69c50800000000000000
+      internalID: 6671801326807598849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbar
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 203
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989bb82e0daccb6f0800000000000000
+      internalID: -667435646254859895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d12909470b77a840800000000000000
+      internalID: 5235288363061813712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Top
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 202
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae0a92eb1ea7f90800000000000000
+      internalID: -6954998467661862395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_TopRight
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3443892202ccbc070800000000000000
+      internalID: 8127814390911611971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Left
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0919c9075c72a4bc0800000000000000
+      internalID: -3798179606782242416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Middle
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f448845aa7cb98d0800000000000000
+      internalID: -2838455605750381322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Right
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e046e98c2c360f750800000000000000
+      internalID: 6336674363950916622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef91b0d17eed5f520800000000000000
+      internalID: 2735337432903522814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_Bottom
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f2548f70f8aac0800000000000000
+      internalID: -3843557851489175424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dialogue_BottomRight
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca2653d340d7200800000000000000
+      internalID: 179304221099863092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objects0_34
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 87
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94cf757d75b54e10800000000000000
+      internalID: 2181349144977720476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProgressBar
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 171
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15093e666349ed4c0800000000000000
+      internalID: -4260805236070576047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 537
+        width: 62
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30645162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73536654a69f6e4f0800000000000000
+      internalID: -799677648985508553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBarBG
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 187
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb189c4ddecc09280800000000000000
+      internalID: -9038499130283294274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f53135eadfdfb5f49af45c7b24115fd6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
