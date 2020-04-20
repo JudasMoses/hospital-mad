@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Level 1
   m_EditorClassIdentifier: 
   timeIntoLevel: 0
-  timeBetweenPatientEvents: 30
+  timeBetweenPatientEvents: 2
   numberOfEventsToTrigger: 2

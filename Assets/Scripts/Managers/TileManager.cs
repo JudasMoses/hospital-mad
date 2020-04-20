@@ -16,9 +16,6 @@ public class TileManager : MonoBehaviour
 	}
 
 
-	[Header("Settings")]
-	public int difficulty;
-
 	[Header("References")]
 	// Tilemaps
 	public Tilemap floor;

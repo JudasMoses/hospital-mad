@@ -5,7 +5,7 @@ using UnityEngine;
 public class InteractableZone : MonoBehaviour
 {
 	[SerializeField, SerializeReference]
-	public IInteractable interactable;
+	public Patient interactable;
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{

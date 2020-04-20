@@ -56,6 +56,8 @@ public class PatientEventManager : MonoBehaviour
 
     void PatientEvent()
     {
+        Debug.Log($"Triggering patient event for {difficultyLevels[currentLevel].numberOfEventsToTrigger} patients");
+
         List<Patient> patientsList = patients.ToList();
         patientsList.Shuffle();
 
@@ -63,7 +65,8 @@ public class PatientEventManager : MonoBehaviour
         for (int i = 0; i < difficultyLevels[currentLevel].numberOfEventsToTrigger - 1; i++)
         {
             // Loop through each patient to find available one
-            for (int patient = 0; patient < patientsList.Count - 1; patient++)
+            Debug.Log($"Triggering patient {i}");
+            for (int patient = 0; patient < patientsList.Count; patient++)
             {
                 // If event already triggered
                 if (patientsList[patient].active)
@@ -74,6 +77,7 @@ public class PatientEventManager : MonoBehaviour
                 // If not triggered
                 else
                 {
+                    Debug.Log("Triggered patient event action");
                     patientsList[patient].PatientEventTrigger();
                     patientsList.RemoveAt(patient);
                     break;

@@ -96,14 +96,14 @@ public class WoundedPatient : Patient
 	public override void CanInteract(bool interactable) {
 		if (interactable)
 		{
-			if (!active)
+			if (healState != State.Waiting)
 			{
 				PlayerManager.instance.availableInteractable.Add(this);
 			}
 		}
 		else
 		{
-			if (currentlyHealing && !active)
+			if (currentlyHealing && healState != State.Waiting)
 			{
 				Interact(false);
 			}
